@@ -3,7 +3,7 @@ import bpy
 import bmesh
 import math
 from typing import List, Tuple
-from mathutils import Vector
+from mathutils import Vector, Matrix
 
 from ...utils.util import ShowMessageBox, getPreferences, printTimings
 from .wmb import *
@@ -30,6 +30,7 @@ def reset_blend():
 def construct_armature(name, bone_data_array, firstLevel, secondLevel, thirdLevel, boneMap, boneSetArray, collection_name):			# bone_data =[boneIndex, boneName, parentIndex, parentName, bone_pos, optional, boneNumber, localPos, local_rotation, world_rotation, world_position_tpose]
 	print('[+] importing armature')
 	amt = bpy.data.armatures.new(name +'Amt')
+	#amt.pose_position = 'REST'
 	ob = bpy.data.objects.new(name, amt)
 	#ob = bpy.context.active_object
 	if getPreferences().armatureDefaultDisplayType != "DEFAULT":
@@ -45,20 +46,26 @@ def construct_armature(name, bone_data_array, firstLevel, secondLevel, thirdLeve
 	amt['secondLevel'] = secondLevel
 	amt['thirdLevel'] = thirdLevel
 
+	#print(firstLevel)
+	#print(secondLevel)
+	#print(thirdLevel)
+
 	amt['boneMap'] = boneMap
+	#print(boneMap)
 
 	amt['boneSetArray'] = boneSetArray
 
 	for bone_data in bone_data_array:
 		bone = amt.edit_bones.new(bone_data[1])
-		bone.head = Vector(bone_data[4]) 
-		bone.tail = Vector(bone_data[4]) + Vector((0 , 0.01, 0))				
-		bone['ID'] = bone_data[6]
+		bone.head = Vector(bone_data[10]) 
+		bone.tail = Vector(bone_data[10]) + Vector((0 , 0.1, 0))
 
-		bone['localPosition'] = bone_data[7]
+		bone['ID'] = bone_data[6]
+		#bone['APOSE_position'] = bone_data[4]
+		#bone['TPose_localPosition'] = bone_data[7]
 		bone['localRotation'] = bone_data[8]
-		bone['worldRotation'] = bone_data[9]
-		bone['TPOSE_worldPosition'] = bone_data[10]
+		#bone['worldRotation'] = bone_data[9]
+		#bone['TPOSE_worldPosition'] = bone_data[10]
 
 	bones = amt.edit_bones
 	for bone_data in bone_data_array:
@@ -66,8 +73,24 @@ def construct_armature(name, bone_data_array, firstLevel, secondLevel, thirdLeve
 			bone = bones[bone_data[1]]
 			bone.parent = bones[bone_data[3]]
 			#if bones[bone_data[3]]['ID'] != 0:
-			if bones[bone_data[3]].head != bone.head:
-				bones[bone_data[3]].tail = bone.head
+			#if bones[bone_data[3]].head != bone.head:
+			#	bones[bone_data[3]].tail = bone.head
+
+	bpy.ops.object.mode_set(mode='POSE')
+
+	for pose_bone in ob.pose.bones:
+		rot_mat = Matrix.Rotation(pose_bone.bone["localRotation"][2], 4, 'Z') @ Matrix.Rotation(pose_bone.bone["localRotation"][1], 4, 'Y') @ Matrix.Rotation(pose_bone.bone["localRotation"][0], 4, 'X')
+
+		pose_bone.matrix_basis = rot_mat @ pose_bone.matrix_basis
+		bpy.context.view_layer.update()
+
+	bpy.ops.pose.armature_apply()
+
+	for pose_bone in ob.pose.bones:
+		rot_mat = Matrix.Rotation(pose_bone.bone["localRotation"][2], 4, 'Z') @ Matrix.Rotation(pose_bone.bone["localRotation"][1], 4, 'Y') @ Matrix.Rotation(pose_bone.bone["localRotation"][0], 4, 'X')
+
+		pose_bone.matrix_basis = rot_mat.inverted() @ pose_bone.matrix_basis
+		bpy.context.view_layer.update()
 
 	bpy.ops.object.mode_set(mode='OBJECT')
 	ob.rotation_euler = (math.radians(90),0,0)
@@ -579,15 +602,15 @@ def get_wmb_material(wmb, texture_dir):
 								print('[+] could not find DDS texture, trying to find it in WTA; %s.dds'% identifier)
 								texture_fp.write(texture_stream)
 								texture_fp.close()
-							else:
-								print('[+] Found %s.dds'% identifier)
+							#else:
+							#	print('[+] Found %s.dds'% identifier)
 					except:
 						continue
 				materials.append([material_name,textures,uniforms,shader_name,technique_name,parameterGroups])
 		else:
 			texture_dir = texture_dir.replace('.dat','.dtt')
 			for textureIndex in range(wmb.wta.textureCount):
-				print(textureIndex)
+				#print(textureIndex)
 				identifier = wmb.wta.wtaTextureIdentifier[textureIndex]
 				texture_stream = wmb.wta.getTextureByIdentifier(identifier,wmb.wtp_fp)
 				if texture_stream:

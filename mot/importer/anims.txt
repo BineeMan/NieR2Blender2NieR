@@ -1,0 +1,918 @@
+pl0000_0001	Walk Cycle			
+pl0000_0002	Run Cycle			
+pl0000_0003	Run Stop L			
+pl0000_0004	Run Stop R			
+pl0000_0006	Sprint Cycle			
+pl0000_0007	Sprint Stop R			
+pl0000_0008	Walk to Run			
+pl0000_0009	Run Stop R			
+pl0000_000a	Run Stop L			
+pl0000_000b	Landing Run			
+pl0000_000c	roll to sprint after jumping			
+pl0000_000d	Evade Left			
+pl0000_0010	Jump 1/3			
+pl0000_0011	Jump 2/3			
+pl0000_0012	Jump 3/3			
+pl0000_0014	Double Jump			
+pl0000_0015	Double Jump			
+pl0000_0016	Double Jump			
+pl0000_0017	Double Jump			
+pl0000_0018	Jump 1/3			
+pl0000_0019	Jump 2/3			
+pl0000_001a	Jump 3/3			
+pl0000_001b	Stand to Jump			
+pl0000_001c	Run to Jump			
+pl0000_001d	Sprint to Jump			
+pl0000_001f	Pod grab			
+pl0000_0024	Evade Front			
+pl0000_0025	Evade Backward			
+pl0000_0026	Evade Right			
+pl0000_0027	Evade Left			
+pl0000_0028	Walk Stop			
+pl0000_0029	Walk Stop			
+pl0000_002a	Walk Stop			
+pl0000_002b	Walk Stop			
+pl0000_002c	Walk Stop			
+pl0000_002d	Walk Stop			
+pl0000_002e	Walk Stop			
+pl0000_002f	Walk Stop			
+pl0000_0030	Stand to Neutral Idle			
+pl0000_0031	Neutral Idle Cycle			
+pl0000_0032	Neutral Idle to Idle Crossed Arms			
+pl0000_0033	Idle Crossed Arms Cycle			
+pl0000_0034	Neutral Idle to Idle Crossed Arms			
+pl0000_003a	Stand to Neutral Idle			
+pl0000_003b	Stand to Neutral Idle			
+pl0000_003f	Neutral Idle Cycle			
+pl0000_0040	Stairs ?			
+pl0000_0041	Stairs ?			
+pl0000_0042	Stairs Down Cycle			
+pl0000_0043	Stairs ?			
+pl0000_0044	Stairs ?			
+pl0000_0045	Stairs ?			
+pl0000_0046	Stairs ?			
+pl0000_0047	Stairs ?			
+pl0000_0048	Stairs ?			
+pl0000_0049	Stairs ?			
+pl0000_004a	Stairs ?			
+pl0000_004b	Stairs ?			
+pl0000_004c	Stairs ?			
+pl0000_004d	Stairs ?			
+pl0000_0050	Stand to Dash Front			
+pl0000_0051	Dash Front			
+pl0000_0052	Dash Front to Stand			
+pl0000_0054	Stand to Dash Backward			
+pl0000_0055	Dash Backward			
+pl0000_0056	Dash Backward to Stand			
+pl0000_0058	Stand to Dash Right			
+pl0000_0059	Dash Right			
+pl0000_005a	Dash Right to Stand			
+pl0000_005c	Stand to Dash Left			
+pl0000_005d	Dash Left			
+pl0000_005e	Dash Left to Stand			
+pl0000_0060	Dash Front to Sprint			
+pl0000_0061	Dash Backward to Sprint			
+pl0000_0062	Dash Right to Sprint			
+pl0000_0063	Dash Left to Sprint			
+pl0000_0065	Dash Front Inclined Right			
+pl0000_0066	Dash Front Inclined Left			
+pl0000_0067	Dash Backward Inclined Right			
+pl0000_0068	Dash Bacward Inclined Left			
+pl0000_0069	Dash Right Inclined Right			
+pl0000_006a	Dash Right Inclined Left			
+pl0000_006b	Dash Left Inclined Right			
+pl0000_006c	Dash Left Inclined Left			
+pl0000_0070	Stand to Box			
+pl0000_0071	Box to Stand			
+pl0000_0072	Box Cycle			
+pl0000_0073	Box to Box Push			
+pl0000_0074	Box Push Cycle			
+pl0000_0075	Box Push to Box			
+pl0000_0076	Box to Box Pull			
+pl0000_0077	Box Pull Cycle			
+pl0000_0078	Box Pull to Box			
+pl0000_0079	Box to Box Pull Hard			
+pl0000_007a	Box Pull hard Cycle			
+pl0000_007b	Butt			
+pl0000_0080	Ledge Jump			
+pl0000_0085	Dash Front Inclined Right			
+pl0000_0086	Dash Front Inclined Left			
+pl0000_0087	Dash Backward Inclined Right			
+pl0000_0088	Dash Backward Inclined Left			
+pl0000_0089	Dash Right Inclined Right			
+pl0000_008a	Dash Right Inclined Left			
+pl0000_008b	Dash Left Inclined Right			
+pl0000_008c	Dash Left Inclined Left			
+pl0000_0090	Jump			
+pl0000_0091	Jump Cycle			
+pl0000_0092	Roll to Stand			
+pl0000_00a0	Jump			
+pl0000_00a1	Jump Cycle			
+pl0000_00a2	Sky Dive			
+pl0000_00a3	Jump Cycle			
+pl0000_00a4	Sky Dive			
+pl0000_00a5	Landing			
+pl0000_00a6	Sky Dive			
+pl0000_00a7	Sky Dive Cycle			
+pl0000_00a8	Point ?			
+pl0000_00ac	Point ?			
+pl0000_00ad	Point Cycle ?			
+pl0000_00b0	Sprint Reverse			
+pl0000_00c0	Sprint Cycle Inclined Right			
+pl0000_00c1	Sprint Cycle Inclined Left			
+pl0000_00c8	Run Inclined Right			
+pl0000_00c9	Run Inclined Left			
+pl0000_00d0	Drift Cycle			
+pl0000_00d1	Drift Cycle			
+pl0000_00d2	Drift Cycle			
+pl0000_00d3	Run to Drift ?			
+pl0000_00d5	Drift Cycle			
+pl0000_00da	Drift to Stand			
+pl0000_00dc	Drift to Run			
+pl0000_00dd	Drift to Sprint			
+pl0000_00f0	Stairs ?			
+pl0000_00f1	Stairs ?			
+pl0000_00f2	Stairs ?			
+pl0000_00f3	Stairs Cycle			
+pl0000_00f4	Stairs ?			
+pl0000_00f5	Stairs ?			
+pl0000_00f6	Stairs ?			
+pl0000_00f7	Stairs ?			
+pl0000_00f8	Stairs ?			
+pl0000_00f9	Stairs ?			
+pl0000_00fa	Stairs ?			
+pl0000_00fb	Stairs ?			
+pl0000_00fc	Stairs ?			
+pl0000_00fd	Stairs ?			
+pl0000_0100	Attack Small Sword Light Ground 1			
+pl0000_0101	Attack Small Sword Light Ground 2			
+pl0000_0102	Attack Small Sword Light Ground 3			
+pl0000_0103	Attack Small Sword Light Ground 4			
+pl0000_0104	Attack Small Sword Light Ground 5			
+pl0000_0105	Attack Small Sword Light Ground 6			
+pl0000_0106	Attack Small Sword Light Ground 7			
+pl0000_0110	Attack Small Sword Heavy Ground 1			
+pl0000_0111	Attack Small Sword Heavy Ground Hold no contact			
+pl0000_0113	Attack Small Sword Heavy Ground 2			
+pl0000_0114	Attack Small Sword Heavy Ground Hold no contact			
+pl0000_0116	Attack Small Sword Heavy Ground 3			
+pl0000_0117	Attack Small Sword Heavy Ground Hold no contact			
+pl0000_0119	Attack Small Sword Heavy Ground Hold contact			
+pl0000_0130	Attack Small Sword Light Air 1 & 3			
+pl0000_0131	Attack Small Sword Light Air 2 & 4			
+pl0000_0132	Attack Small Sword Light Air 5			
+pl0000_0133	Attack Small Sword Light Ground 4 Right ?			
+pl0000_0134	Attack Small Sword Light Ground 4 Left ?			
+pl0000_0135	Attack Small Sword Light Ground 6			
+pl0000_0136	Attack Small Sword Light Ground 7			
+pl0000_0150	Attack Small Sword Heavy Air Up			
+pl0000_0155	Attack Small Sword Heavy Air Down 1/3			
+pl0000_0156	Attack Small Sword Heavy Air Down 2/3			
+pl0000_0157	Attack Small Sword Heavy Air Down 3/3			
+pl0000_0160	Attack Small Sword Heavy Sprint			
+pl0000_0180	Attack Small Sword Light Run/Sprint			
+pl0000_0188	Attack Small Sword Heavy Run			
+pl0000_018d	Attack Small Sword Heavy Air Down Directional 1/3			
+pl0000_018e	Attack Small Sword Heavy Air Down Directional 2/3			
+pl0000_018f	Attack Small Sword Heavy Air Down Directional 3/3			
+pl0000_01e0	Attack Small Sword Counter			
+pl0000_01e1	Attack Small Sword Counter			
+pl0000_01e8	Taunt Small Sword			
+pl0000_01e9				
+pl0000_01f0	Small Sword Sheathe ?			
+pl0000_0200	Attack Heavy Sword Light Ground 1			
+pl0000_0201	Attack Heavy Sword Light Ground 2			
+pl0000_0202	Attack Heavy Sword Light Ground 3			
+pl0000_0203	Attack Heavy Sword Light Ground 4			
+pl0000_0205	Attack Heavy Sword Heavy Ground 1			
+pl0000_0207	Attack Heavy Sword Heavy Ground Hold 1			
+pl0000_0208	Attack Heavy Sword Heavy Ground 1			
+pl0000_0209	Attack Heavy Sword Heavy Ground 2			
+pl0000_020b	Attack Heavy Sword Heavy Ground Hold 2			
+pl0000_020c	Attack Heavy Sword ?			
+pl0000_020d	Attack Heavy Sword Heavy Ground 3			
+pl0000_020f	Attack Heavy Sword Heavy Ground Hold 1			
+pl0000_0210				
+pl0000_0211	Attack Heavy Sword Heavy Ground Hold Unfinished			
+pl0000_0212	Attack Heavy Sword Heavy Ground Hold Cycle			
+pl0000_0213	Attack Heavy Sword Heavy Ground Hold no contact			
+pl0000_0214	Attack Heavy Sword Heavy Ground Hold contact			
+pl0000_021a	Attack Heavy Sword Heavy Sprint			
+pl0000_0220	Attack Heavy Sword Heavy Air Up			
+pl0000_0225	Attack Heavy Sword Heavy Air Down 1/3			
+pl0000_0226	Attack Heavy Sword Heavy Air Down 2/3			
+pl0000_0227	Attack Heavy Sword Heavy Air Down 3/3			
+pl0000_022a	Attack Heavy Sword Light Air 1			
+pl0000_0280	Attack Heavy Sword Light Run			
+pl0000_0288	Attack Heavy Sword Heavy Ground 1			
+pl0000_028d	Attack Heavy Sword Heavy Air Down Directional 1/3			
+pl0000_028e	Attack Heavy Sword Heavy Air Down Directional 2/3			
+pl0000_028f	Attack Heavy Sword Heavy Air Down Directional 3/3			
+pl0000_02e0	Attack Heavy Sword Counter			
+pl0000_02e1	Attack Heavy Sword Counter			
+pl0000_02e8	Taunt Heavy Sword			
+pl0000_02f0	Heavy Sword Sheathe ?			
+pl0000_0300	Attack Spear Light Ground 1			
+pl0000_0301	Attack Spear Light Ground 2			
+pl0000_0302	Attack Spear Light Ground 3			
+pl0000_0303	Attack Spear Light Ground 4			
+pl0000_0304	Attack Spear Light Ground 5			
+pl0000_0305	Attack Spear Light Ground 6			
+pl0000_0310	Attack Spear Heavy Ground 1			
+pl0000_0311	Attack Spear Heavy Ground Hold 1			
+pl0000_0313	Attack Spear Heavy Ground 2			
+pl0000_0314	Attack Spear Heavy Ground Hold 2			
+pl0000_0316	Attack Spear Heavy Ground 3			
+pl0000_0317	Attack Spear Heavy Ground Hold 1 ?			
+pl0000_031a	Attack Spear Heavy Ground Hold Unfinished			
+pl0000_031b	Attack Spear Heavy Ground Hold Cycle			
+pl0000_031c	Attack Spear Heavy Ground Hold no contact			
+pl0000_031d	Attack Spear Heavy Ground Hold contact			
+pl0000_0320	Attack Spear Heavy Sprint			
+pl0000_0323	Attack Spear Heavy Air Up			
+pl0000_0326	Attack Spear Heavy Air Down 1/3			
+pl0000_0327	Attack Spear Heavy Air Down 2/3			
+pl0000_0328	Attack Spear Heavy Air Down 3/3			
+pl0000_032a	Attack Spear Light Air 1			
+pl0000_032b	Attack Spear Light Air 2			
+pl0000_032c	Attack Spear Light Air 3			
+pl0000_0330	Attack Spear Counter			
+pl0000_0331	Attack Spear Counter			
+pl0000_0380	Attack Spear Light Run			
+pl0000_0388	Attack Spear Heavy Evade			
+pl0000_038d	Attack Spear Heavy Air Down Directional 1/3			
+pl0000_038e	Attack Spear Heavy Air Down Directional 2/3			
+pl0000_038f	Attack Spear Heavy Air Down Directional 3/3			
+pl0000_03e8	Taunt Spear			
+pl0000_03f0	Spear Sheathe ?			
+pl0000_0400	Attack Combat Bracers Light Ground 1			
+pl0000_0401	Attack Combat Bracers Light Ground 2			
+pl0000_0402	Attack Combat Bracers Light Ground 3			
+pl0000_0403	Attack Combat Bracers Light Ground 4			
+pl0000_0404	Attack Combat Bracers Light Ground 5			
+pl0000_0405	Attack Combat Bracers Light Ground 6			
+pl0000_0406	Attack Combat Bracers Light Ground 7			
+pl0000_0407	Attack Combat Bracers Light Ground 8			
+pl0000_0410	Attack Combat Bracers Heavy Ground 1			
+pl0000_0411	Attack Combat Bracers Heavy Ground Hold no contact 1			
+pl0000_0413	Attack Combat Bracers Heavy Ground 2			
+pl0000_0414	Attack Combat Bracers Heavy Ground Hold no contact 2			
+pl0000_0416	Attack Combat Bracers Heavy Ground 3			
+pl0000_0417	Attack Combat Bracers Heavy Ground Hold no contact 3			
+pl0000_041a	Attack Combat Bracers Heavy Ground Hold contact 1/5			
+pl0000_041b	Attack Combat Bracers Heavy Ground Hold contact 2/5			
+pl0000_041d	Attack Combat Bracers Heavy Ground Hold contact 3/5 Cycle			
+pl0000_041e	Attack Combat Bracers Heavy Ground Hold contact 4/5 Unfinished			
+pl0000_041f	Attack Combat Bracers Heavy Ground Hold contact 5/5 Complete			
+pl0000_0420	Attack Combat Bracers Heavy Sprint			
+pl0000_0423	Attack Combat Bracers Heavy Air Up			
+pl0000_0426	Attack Combat Bracers Heavy Air Down 1/3			
+pl0000_0427	Attack Combat Bracers Heavy Air Down 2/3			
+pl0000_0428	Attack Combat Bracers Heavy Air Down 3/3			
+pl0000_042a	Attack Combat Bracers Light Air 1 & 3 & 5			
+pl0000_042b	Attack Combat Bracers Light Air 2 & 4 & 6			
+pl0000_042c	Attack Combat Bracers Light Air 7			
+pl0000_0430	Attack Combat Bracers Counter			
+pl0000_0431	Attack Combat Bracers Counter			
+pl0000_0480	Attack Combat Bracers Light Run			
+pl0000_0488	Attack Combat Bracers Heavy Ground 1			
+pl0000_048d	Attack Combat Bracers Heavy Air Down Directional 1/3			
+pl0000_048e	Attack Combat Bracers Heavy Air Down Directional 2/3			
+pl0000_048f	Attack Combat Bracers Heavy Air Down Directional 3/3			
+pl0000_04e8	Taunt Combat Bracers			
+pl0000_04f0	Combat Bracers Sheathe			
+pl0000_0500	Attack Bare Fists Light Ground 1			
+pl0000_0501	Attack Bare Fists Light Ground 2			
+pl0000_0502	Attack Bare Fists Light Ground 3			
+pl0000_0503	Attack Bare Fists Light Ground 4			
+pl0000_0510	Attack Bare Fists Heavy Ground 1			
+pl0000_0511	Attack Bare Fists Heavy Ground Hold			
+pl0000_0520	Attack Bare Fists Heavy Sprint			
+pl0000_0523	Attack Bare Fists Heavy Air Up			
+pl0000_0526	Attack Bare Fists Heavy Air Down 1/3			
+pl0000_0527	Attack Bare Fists Heavy Air Down 2/3			
+pl0000_0528	Attack Bare Fists Heavy Air Down 3/3			
+pl0000_052a	Attack Bare Fists Light Air 1			
+pl0000_052b	Attack Bare Fists Light Air 2			
+pl0000_0530	Attack Bare Fists Counter			
+pl0000_0531	Attack Bare Fists Counter			
+pl0000_0580	Attack Bare Fists Light Run			
+pl0000_0588	Attack Bare Fists Heavy Run			
+pl0000_058d	Attack Bare Fists Heavy Air Down Directional 1/3			
+pl0000_058e	Attack Bare Fists Heavy Air Down Directional 2/3			
+pl0000_058f	Attack Bare Fists Heavy Air Down Directional 3/3			
+pl0000_05e8	Taunt Bare Fists			
+pl0000_0600	Attack Light Evade Universal			
+pl0000_060f	Attack Pod Counter			
+pl0000_0610	Attack Pod Air Cycle			
+pl0000_0611	Attack Pod Air Cycle			
+pl0000_0612	Attack Pod Air Directional 1/3			
+pl0000_0613	Attack Pod Air Directional 2/3			
+pl0000_0614	Attack Pod Air Directional 3/3			
+pl0000_0618	Attack Pod Wire 1/2			
+pl0000_0619	Attack Pod Wire 2/2			
+pl0000_061a	Attack Pod Air Throw			
+pl0000_061c	Attack Pod Wire 1/2			
+pl0000_061d	Attack Pod Wire 2/2			
+pl0000_061e	Bare Fists Stand to Stand ?			
+pl0000_0620	Counter Universal			
+pl0000_0624	Pick Up			
+pl0000_0627	Maso Retrieval			
+pl0000_062a	Pod Pet			
+pl0000_0630	Pick Up			
+pl0000_0633	Animal ?			
+pl0000_0634	Animal ?			
+pl0000_0635	Animal ?			
+pl0000_063a	Animal ?			
+pl0000_063b	Animal ?			
+pl0000_063c	Animal ?			
+pl0000_0640	Combo Small Sword & Heavy Sword			
+pl0000_0643	Combo Small Sword & Small Sword			
+pl0000_0646	Combo Heavy Sword & Heavy Sword			
+pl0000_0649	Combo Spear & Spear			
+pl0000_064c	Combo Small Sword & Spear			
+pl0000_064f	Combo Heavy Sword & Spear			
+pl0000_0652	Combo Combat Bracers & Combat Bracers			
+pl0000_0655	Combo Small Sword & Combat Bracers			
+pl0000_0658	Combo Heavy Sword & Combat Bracers Successful			
+pl0000_0659	Combo Heavy Sword & Combat Bracers Fail			
+pl0000_065b	Combo Spear & Combat Bracer			
+pl0000_0660	Attack Small Sword Light Ground Hold			
+pl0000_0663	Attack Heavy Sword Light Ground Hold			
+pl0000_0666	Attack Spear Light Ground Hold			
+pl0000_0669	Attack Combat Bracers Light Ground Hold			
+pl0000_066c	Attack Bare Fists Light Ground Hold			
+pl0000_0900				
+pl0000_0901				
+pl0000_0902				
+pl0000_0903				
+pl0000_0904				
+pl0000_0905				
+pl0000_0906				
+pl0000_0907				
+pl0000_0908				
+pl0000_0909				
+pl0000_090a				
+pl0000_090b				
+pl0000_09c0	Finisher			
+pl0000_09c3	Finisher Combat Bracers Counter 1/2			
+pl0000_09c4	Finisher Combat Bracers Counter 2/2			
+pl0000_09c6	Finisher Bare Fists Heavy Sprint 1/2			
+pl0000_09c7	Finisher Bare Fists Heavy Sprint 2/2			
+pl0000_09e0	Finisher			
+pl0000_09e3	Finisher			
+pl0000_09e6	Finisher			
+pl0000_0a00	Finisher			
+pl0000_1000	Damage ?			
+pl0000_1001	Damage ?			
+pl0000_1002	Damage ?			
+pl0000_1003	Damage ?			
+pl0000_1005	Damage ?			
+pl0000_1006	Damage ?			
+pl0000_1007	Damage ?			
+pl0000_1008	Damage ?			
+pl0000_100a	Damage ?			
+pl0000_100b	Damage ?			
+pl0000_1020	Damage ?			
+pl0000_1021	Damage ?			
+pl0000_1022	Damage ?			
+pl0000_1025	Damage ?			
+pl0000_1026	Damage ?			
+pl0000_1030	Damage ?			
+pl0000_1031	Damage ?			
+pl0000_1032	Damage ?			
+pl0000_1033	Damage ?			
+pl0000_1034	Damage ?			
+pl0000_1035	Damage ?			
+pl0000_1036	Damage ?			
+pl0000_1037	Damage ?			
+pl0000_1039	Damage ?			
+pl0000_103a	Damage ?			
+pl0000_103b	Damage ?			
+pl0000_103d	Damage ?			
+pl0000_103e	Damage ?			
+pl0000_103f	Damage ?			
+pl0000_1040	Damage ?			
+pl0000_1042	Damage ?			
+pl0000_1043	Damage ?			
+pl0000_1045	Damage ?			
+pl0000_1046	Damage ?			
+pl0000_1047	Damage ?			
+pl0000_104a	Damage ?			
+pl0000_104b	Damage ?			
+pl0000_1050	Damage ?			
+pl0000_1051	Damage ?			
+pl0000_1052	Damage ?			
+pl0000_1053	Damage ?			
+pl0000_105a	Damage ?			
+pl0000_105b	Damage ?			
+pl0000_105c	Damage ?			
+pl0000_1060	Damage ?			
+pl0000_1061	Damage ?			
+pl0000_1062	Damage ?			
+pl0000_1065	Self-Destruct 2B			
+pl0000_1066				
+pl0000_1067	Self-Destruct A2			
+pl0000_1080	Stumble Right			
+pl0000_1081	Stumble Left			
+pl0000_1082	Stumble Front			
+pl0000_1083	Stumble Front			
+pl0000_1085	Stumble Front to Walk			
+pl0000_108a	Stumble Front to Stand			
+pl0000_1090	Damage ?			
+pl0000_1091	Damage ?			
+pl0000_1092	Damage ?			
+pl0000_1098	Damage ?			
+pl0000_1099	Damage ?			
+pl0000_10a0	Damage ?			
+pl0000_10a1	Damage ?			
+pl0000_10a8	Damage ?			
+pl0000_10ae	Damage ?			
+pl0000_1200	Pod Program Ground			
+pl0000_1201	Pod Program Air			
+pl0000_1202	Pod Program Ground			
+pl0000_1203	Pod Program Ground			
+pl0000_1204	Pod Program Air			
+pl0000_2000	Animal Run Cycle			
+pl0000_2020	Animal Inclined Right Cycle			
+pl0000_2021	Animal Inclined Left Cycle			
+pl0000_2022	Animal ?			
+pl0000_2025	Animal ?			
+pl0000_2027	Animal Sprint Cycle			
+pl0000_2028	Animal Sprint Inclined Right Cycle			
+pl0000_2029	Animal Sprint Inclined Left Cycle			
+pl0000_202a	Animal ?			
+pl0000_202b	Animal Run Stop			
+pl0000_2030	Animal ?			
+pl0000_2031	Animal ?			
+pl0000_2032	Animal Jump Cycle			
+pl0000_2033	Animal ?			
+pl0000_2040	Animal Idle Cycle			
+pl0000_2041	Animal ?			
+pl0000_2042	Animal Sprint Stop			
+pl0000_2043	Animal ?			
+pl0000_2044	Animal Run Cycle			
+pl0000_2045	Animal Inclined Right Cycle			
+pl0000_2046	Animal Inclined Left Cycle			
+pl0000_2047	Animal Sprint Cycle			
+pl0000_2048	Animal Sprint Inclined Right Cycle			
+pl0000_2049	Animal Sprint Inclined Left Cycle			
+pl0000_204a	Animal Jump Up			
+pl0000_204b	Animal Jump Down			
+pl0000_204c	Animal Jump Cycle			
+pl0000_204d	Animal Landing			
+pl0000_204e	Animal Landing Run			
+pl0000_2050	Animal Idle Cycle			
+pl0000_2051	Animal Run			
+pl0000_2052	Animal Run Stop			
+pl0000_2053	Animal ?			
+pl0000_2054	Animal ?			
+pl0000_2055	Animal ?			
+pl0000_2056	Animal ?			
+pl0000_2057	Animal ?			
+pl0000_2058	Animal ?			
+pl0000_2059	Animal ?			
+pl0000_205a	Animal ?			
+pl0000_205b	Animal ?			
+pl0000_205c	Animal ?			
+pl0000_205d	Animal ?			
+pl0000_205e	Animal ?			
+pl0000_2060	Animal ?			
+pl0000_2061	Animal ?			
+pl0000_2062	Animal ?			
+pl0000_2064	Animal ?			
+pl0000_2065	Animal ?			
+pl0000_2066	Animal ?			
+pl0000_2067	Animal ?			
+pl0000_2068	Animal ?			
+pl0000_2069	Animal ?			
+pl0000_206a	Animal ?			
+pl0000_206b	Animal ?			
+pl0000_206c	Animal ?			
+pl0000_206d	Animal ?			
+pl0000_206e	Animal ?			
+pl0000_a005	Ho.229 ?			
+pl0000_a006	Ho.229 ?			
+pl0000_a010	Ho.229 ?			
+pl0000_a015	Ho.229 ?			
+pl0000_a01a	Ho.229 ?			
+pl0000_a020	Ho.229 ?			
+pl0000_a021	Ho.229 ?			
+pl0000_a022	Ho.229 ?			
+pl0000_a023	Ho.229 ?			
+pl0000_a030	Ho.229 ?			
+pl0000_a031	Ho.229 ?			
+pl0000_a500	Ho.229 ?			
+pl0000_a508	Ho.229 ?			
+pl0000_a530	Ho.229 ?			
+pl0000_a531	Ho.229 ?			
+pl0000_a532	Ho.229 ?			
+pl0000_a533	Ho.229 ?			
+pl0000_aa00	Ho.229 ?			
+pl0000_aa01	Ho.229 ?			
+pl0000_aa02	Ho.229 ?			
+pl0000_aa03	Ho.229 ?			
+pl0000_aa04	Ho.229 ?			
+pl0000_aa05	Dash Front Cycle			
+pl0000_aa06	Dash Front to Stand			
+pl0000_aa0a	Jump 1/3 ?			
+pl0000_aa0b	Jump Cycle 2/3			
+pl0000_aa0c	Jump Landing 3/3 ?			
+pl0000_aa10	Ho.229 ?			
+pl0000_aa11	Ho.229 ?			
+pl0000_aa12	Ho.229 ?			
+pl0000_aa13	Attack Bare Fists Light Air 1			
+pl0000_aa14	Attack Bare Fists Light Air 1			
+pl0000_aa1a	Attack Bare Fists Light Air 1			
+pl0000_aa1b	Attack Bare Fists Light Air 1			
+pl0000_aa1c	Attack Bare Fists Light Air 1			
+pl0000_aa20	Ho.229 ?			
+pl0000_aa21	Ho.229 ?			
+pl0000_aa30	Ho.229 ?			
+pl0000_aa31	Ho.229 ?			
+pl0000_aa50	Ho.229 ?			
+pl0000_aa58	Ho.229 ?			
+pl0000_aa5b	Ho.229 ?			
+pl0000_aaf0	Ho.229 ?			
+pl0000_aaf1	Ho.229 ?			
+pl0000_aaf2	Ho.229 ?			
+pl0000_aaf3	Ho.229 ?			
+pl0000_aaf4	Ho.229 ?			
+pl0000_aaf5	Ho.229 ?			
+pl0000_aaf6	Ho.229 ?			
+pl0000_aaf7	Ho.229 ?			
+pl0000_aaf8	Ho.229 ?			
+pl0000_aaf9	Ho.229 ?			
+pl0000_aafa	Ho.229 ?			
+pl0000_aafb	Ho.229 ?			
+pl0000_aafc	Ho.229 ?			
+pl0000_aafd	Ho.229 ?			
+pl0000_aafe	Ho.229 ?			
+pl0000_aaff	Ho.229 ?			
+pl0000_b010	Jump 1/3			
+pl0000_b011	Jump Cycle 2/3			
+pl0000_b012	Jump Landing 3/3			
+pl0000_b014	Double Jump			
+pl0000_b015	Double Jump			
+pl0000_b016	Double Jump			
+pl0000_b018	Jump 1/3			
+pl0000_b019	Jump Cycle 2/3			
+pl0000_b01a	Jump Landing 3/3			
+pl0000_b01b	Stand to Jump			
+pl0000_b01c	Run to Jump			
+pl0000_b01d	Sprint to Jump			
+pl0000_b090	Jump 1/3			
+pl0000_b091	Jump Cycle 2/3			
+pl0000_b092	Roll to Stand			
+pl0000_b0e0	Idle Cycle			
+pl0000_b0e1	Idle Cycle			
+pl0000_b0e2	Idle Cycle			
+pl0000_b0e3	Idle Cycle			
+pl0000_b0e6	Idle Cycle			
+pl0000_b0e7	Idle Cycle			
+pl0000_b0e8	Idle Cycle			
+pl0000_b0ea	Idle Crossed Arms Cycle			
+pl0000_b0eb	Idle Crossed Arms Cycle			
+pl0000_b0ec	Idle Crossed Arms Cycle			
+pl0000_b0ed	Idle Crossed Arms to Idle			
+pl0000_b0f0	Idle Cycle			
+pl0000_b0f1	Idle Cycle			
+pl0000_b0f3	Idle Cycle			
+pl0000_b0f6	Idle Cycle			
+pl0000_b0f7	Idle Cycle			
+pl0000_b0f8	Idle Cycle			
+pl0000_b0fd	Idle Crossed Arms to Idle			
+pl0000_c001	Stand Small Sword Cycle			
+pl0000_c002	Idle Small Sword			
+pl0000_c004	Walk Small Sword Cycle			
+pl0000_c008	Walk to Run Small Sword			
+pl0000_c009	Walk Stop Small Sword			
+pl0000_c00a	Run Small Sword Cycle			
+pl0000_c00b	Run Stop Small Sword			
+pl0000_c00c	Run Small Sword Inclined Right			
+pl0000_c00d	Run Small Sword Inclined Left			
+pl0000_c00e	Run Stop Small Sword Right			
+pl0000_c00f	Run Stop Small Sword Left			
+pl0000_c010	Stand to Dash Front Small Sword			
+pl0000_c011	Dash Front Small Sword			
+pl0000_c012	Dash Front Stop Small Sword			
+pl0000_c014	Stand to Dash Backward Small Sword			
+pl0000_c015	Dash Backward Small Sword			
+pl0000_c016	Dash Backward Stop Small Sword			
+pl0000_c018	Stand to Dash Right Small Sword			
+pl0000_c019	Dash Right Small Sword			
+pl0000_c01a	Dash Right Stop Small Sword			
+pl0000_c01c	Stand to Dash Left Small Sword			
+pl0000_c01d	Dash Left Small Sword			
+pl0000_c01e	Dash Left Stop Small Sword			
+pl0000_c028	Walk Stop Small Sword			
+pl0000_c029	Walk Stop Small Sword			
+pl0000_c02a	Walk Stop Small Sword			
+pl0000_c02b	Walk Stop Small Sword			
+pl0000_c02c	Walk Stop Small Sword			
+pl0000_c02d	Walk Stop Small Sword			
+pl0000_c02e	Walk Stop Small Sword			
+pl0000_c02f	Walk Stop Small Sword			
+pl0000_c030	Stand to Jump Small Sword			
+pl0000_c031	Jump Small Sword 1/3			
+pl0000_c032	Jump Small Sword 2/3 Cycle			
+pl0000_c034	Jump Small Sword 3/3			
+pl0000_c035	Landing Walk Small Sword			
+pl0000_c036	Landing Run Small Sword			
+pl0000_c038	Run to Jump Small Sword			
+pl0000_c039	Jump Small Sword 1/3			
+pl0000_c03b	Double Jump Small Sword			
+pl0000_c03e	Jump Small Sword 1/3			
+pl0000_c03f	Jump Small Sword 2/3 Cycle			
+pl0000_c065	Dash Front Inclined Right Small Sword			
+pl0000_c066	Dash Front Inclined Left Small Sword			
+pl0000_c067	Dash Backward Inclined Right Small Sword			
+pl0000_c068	Dash Backward Inclined Left Small Sword			
+pl0000_c069	Dash Right Inclined Right Small Sword			
+pl0000_c06a	Dash Right Inclined Left Small Sword			
+pl0000_c06b	Dash Left Inclined Right Small Sword			
+pl0000_c06c	Dash Left Inclined Left Small Sword			
+pl0000_c085	Dash Front Inclined Right Small Sword			
+pl0000_c086	Dash Front Inclined Left Small Sword			
+pl0000_c087	Dash Backward Inclined Right Small Sword			
+pl0000_c088	Dash Backward Inclined Left Small Sword			
+pl0000_c089	Dash Right Inclined Right Small Sword			
+pl0000_c08a	Dash Right Inclined Left Small Sword			
+pl0000_c08b	Dash Left Inclined Right Small Sword			
+pl0000_c08c	Dash Left Inclined Left Small Sword			
+pl0000_c201	Stand Heavy Sword Cycle			
+pl0000_c202	Idle Heavy Sword			
+pl0000_c204	Walk Heavy Sword Cycle			
+pl0000_c207	Walk to Run Heavy Sword			
+pl0000_c208	Walk to Run Heavy Sword			
+pl0000_c209	Walk Stop Heavy Sword			
+pl0000_c20a	Run Heavy Sword Cycle			
+pl0000_c20c	Run Heavy Sword Inclined Right			
+pl0000_c20d	Run Heavy Sword Inclined Left			
+pl0000_c20e	Run Stop Heavy Sword Right			
+pl0000_c20f	Run Stop Heavy Sword Left			
+pl0000_c210	Stand to Dash Front Heavy Sword			
+pl0000_c211	Dash Front Heavy Sword			
+pl0000_c212	Dash Front Stop Heavy Sword			
+pl0000_c214	Stand to Dash Backward Heavy Sword			
+pl0000_c215	Dash Backward Heavy Sword			
+pl0000_c216	Dash Backward Stop Heavy Sword			
+pl0000_c218	Stand to Dash Right Heavy Sword			
+pl0000_c219	Dash Right Heavy Sword			
+pl0000_c21a	Dash Right Stop Heavy Sword			
+pl0000_c21c	Stand to Dash Left Heavy Sword			
+pl0000_c21d	Dash Left Heavy Sword			
+pl0000_c21e	Dash Left Stop Heavy Sword			
+pl0000_c228	Walk Stop Heavy Sword			
+pl0000_c229	Walk Stop Heavy Sword			
+pl0000_c22a	Walk Stop Heavy Sword			
+pl0000_c22b	Walk Stop Heavy Sword			
+pl0000_c22c	Walk Stop Heavy Sword			
+pl0000_c22d	Walk Stop Heavy Sword			
+pl0000_c22e	Walk Stop Heavy Sword			
+pl0000_c22f	Walk Stop Heavy Sword			
+pl0000_c230	Stand to Jump Heavy Sword			
+pl0000_c231	Jump Heavy Sword 1/3			
+pl0000_c232	Jump Heavy Sword 2/3 Cycle			
+pl0000_c234	Jump Heavy Sword 3/3			
+pl0000_c236	Landing Run Heavy Sword			
+pl0000_c238	Run to Jump Heavy Sword			
+pl0000_c239	Jump Heavy Sword 1/3			
+pl0000_c23b	Double Jump Heavy Sword			
+pl0000_c23e	Jump Heavy Sword 1/3			
+pl0000_c23f	Jump Heavy Sword 2/3 Cycle			
+pl0000_c265	Dash Front Inclined Right Heavy Sword			
+pl0000_c266	Dash Front Inclined Left Heavy Sword			
+pl0000_c267	Dash Backward Inclined Right Heavy Sword			
+pl0000_c268	Dash Backward Inclined Left Heavy Sword			
+pl0000_c269	Dash Right Inclined Right Heavy Sword			
+pl0000_c26a	Dash Right Inclined Left Heavy Sword			
+pl0000_c26b	Dash Left Inclined Right Heavy Sword			
+pl0000_c26c	Dash Left Inclined Left Heavy Sword			
+pl0000_c285	Dash Front Inclined Right Heavy Sword			
+pl0000_c286	Dash Front Inclined Left Heavy Sword			
+pl0000_c287	Dash Backward Inclined Right Heavy Sword			
+pl0000_c288	Dash Backward Inclined Left Heavy Sword			
+pl0000_c289	Dash Right Inclined Right Heavy Sword			
+pl0000_c28a	Dash Right Inclined Left Heavy Sword			
+pl0000_c28b	Dash Left Inclined Right Heavy Sword			
+pl0000_c28c	Dash Left Inclined Left Heavy Sword			
+pl0000_c401	Stand Spear Cycle			
+pl0000_c402	Idle Spear			
+pl0000_c404	Walk Spear Cycle			
+pl0000_c408	Walk to Run Spear			
+pl0000_c409	Walk Stop Spear			
+pl0000_c40a	Run Spear Cycle			
+pl0000_c40c	Run Spear Inclined Right			
+pl0000_c40d	Run Spear Inclined Left			
+pl0000_c40e	Run Stop Spear Right			
+pl0000_c40f	Run Stop Spear Left			
+pl0000_c410	Stand to Dash Front Spear			
+pl0000_c411	Dash Front Spear			
+pl0000_c412	Dash Front Stop Spear			
+pl0000_c414	Stand to Dash Backward Spear			
+pl0000_c415	Dash Backward Spear			
+pl0000_c416	Dash Backward Stop Spear			
+pl0000_c418	Stand to Dash Right Spear			
+pl0000_c419	Dash Right Spear			
+pl0000_c41a	Dash Right Stop Spear			
+pl0000_c41c	Stand to Dash Left Spear			
+pl0000_c41d	Dash Left Spear			
+pl0000_c41e	Dash Left Stop Spear			
+pl0000_c428	Walk Stop Spear			
+pl0000_c429	Walk Stop Spear			
+pl0000_c42a	Walk Stop Spear			
+pl0000_c42b	Walk Stop Spear			
+pl0000_c42c	Walk Stop Spear			
+pl0000_c42d	Walk Stop Spear			
+pl0000_c42e	Walk Stop Spear			
+pl0000_c42f	Walk Stop Spear			
+pl0000_c430	Stand to Jump Spear			
+pl0000_c431	Jump Spear 1/3			
+pl0000_c432	Jump Spear 2/3 Cycle			
+pl0000_c434	Jump Spear 3/3			
+pl0000_c436	Landing Run Spear			
+pl0000_c438	Run to Jump Spear			
+pl0000_c439	Jump Spear 1/3			
+pl0000_c43b	Double Jump Spear			
+pl0000_c43e	Jump Spear 1/3			
+pl0000_c43f	Jump Spear 2/3 Cycle			
+pl0000_c465	Dash Front Inclined Right Spear			
+pl0000_c466	Dash Front Inclined Left Spear			
+pl0000_c467	Dash Backward Inclined Right Spear			
+pl0000_c468	Dash Backward Inclined Left Spear			
+pl0000_c469	Dash Right Inclined Right Spear			
+pl0000_c46a	Dash Right Inclined Left Spear			
+pl0000_c46b	Dash Left Inclined Right Spear			
+pl0000_c46c	Dash Left Inclined Left Spear			
+pl0000_c485	Dash Front Inclined Right Spear			
+pl0000_c486	Dash Front Inclined Left Spear			
+pl0000_c487	Dash Backward Inclined Right Spear			
+pl0000_c488	Dash Backward Inclined Left Spear			
+pl0000_c489	Dash Right Inclined Right Spear			
+pl0000_c48a	Dash Right Inclined Left Spear			
+pl0000_c48b	Dash Left Inclined Right Spear			
+pl0000_c48c	Dash Left Inclined Left Spear			
+pl0000_c601	Stand Combat Bracers Cycle			
+pl0000_c602	Idle Combat Bracers			
+pl0000_c604	Walk Combat Bracers Cycle			
+pl0000_c608	Walk to Run Combat Bracers			
+pl0000_c609	Walk Stop Combat Bracers			
+pl0000_c60a	Run Combat Bracers Cycle			
+pl0000_c60c	Run Combat Bracers Inclined Right			
+pl0000_c60d	Run Combat Bracers Inclined Left			
+pl0000_c60e	Run Stop Combat Bracers Right			
+pl0000_c60f	Run Stop Combat Bracers Left			
+pl0000_c610	Stand to Dash Front Combat Bracers			
+pl0000_c611	Dash Front Combat Bracers			
+pl0000_c612	Dash Front Stop Combat Bracers			
+pl0000_c614	Stand to Dash Backward Combat Bracers			
+pl0000_c615	Dash Backward Combat Bracers			
+pl0000_c616	Dash Backward Stop Combat Bracers			
+pl0000_c618	Stand to Dash Right Combat Bracers			
+pl0000_c619	Dash Right Combat Bracers			
+pl0000_c61a	Dash Right Stop Combat Bracers			
+pl0000_c61c	Stand to Dash Left Combat Bracers			
+pl0000_c61d	Dash Left Combat Bracers			
+pl0000_c61e	Dash Left Stop Combat Bracers			
+pl0000_c628	Walk Stop Combat Bracers			
+pl0000_c629	Walk Stop Combat Bracers			
+pl0000_c62a	Walk Stop Combat Bracers			
+pl0000_c62b	Walk Stop Combat Bracers			
+pl0000_c62c	Walk Stop Combat Bracers			
+pl0000_c62d	Walk Stop Combat Bracers			
+pl0000_c62e	Walk Stop Combat Bracers			
+pl0000_c62f	Walk Stop Combat Bracers			
+pl0000_c630	Stand to Jump Combat Bracers			
+pl0000_c631	Jump Combat Bracers 1/3			
+pl0000_c632	Jump Combat Bracers 2/3 Cycle			
+pl0000_c634	Jump Combat Bracers 3/3			
+pl0000_c636	Landing Run Combat Bracers			
+pl0000_c638	Run to Jump Combat Bracers			
+pl0000_c639	Jump Combat Bracers 1/3			
+pl0000_c63b	Double Jump Combat Bracers			
+pl0000_c63e	Jump Combat Bracers 1/3			
+pl0000_c63f	Jump Combat Bracers 2/3 Cycle			
+pl0000_c665	Dash Front Inclined Right Combat Bracers			
+pl0000_c666	Dash Front Inclined Left Combat Bracers			
+pl0000_c667	Dash Backward Inclined Right Combat Bracers			
+pl0000_c668	Dash Backward Inclined Left Combat Bracers			
+pl0000_c669	Dash Right Inclined Right Combat Bracers			
+pl0000_c66a	Dash Right Inclined Left Combat Bracers			
+pl0000_c66b	Dash Left Inclined Right Combat Bracers			
+pl0000_c66c	Dash Left Inclined Left Combat Bracers			
+pl0000_c685	Dash Front Inclined Right Combat Bracers			
+pl0000_c686	Dash Front Inclined Left Combat Bracers			
+pl0000_c687	Dash Backward Inclined Right Combat Bracers			
+pl0000_c688	Dash Backward Inclined Left Combat Bracers			
+pl0000_c689	Dash Right Inclined Right Combat Bracers			
+pl0000_c68a	Dash Right Inclined Left Combat Bracers			
+pl0000_c68b	Dash Left Inclined Right Combat Bracers			
+pl0000_c68c	Dash Left Inclined Left Combat Bracers			
+pl0000_c801	Stand Bare Fists Cycle			
+pl0000_c802	Idle Bare Fists			
+pl0000_c803	Dash to Bare Fists Stance ?			
+pl0000_ca01	Dash to Combat Stance ?			
+pl0000_ca02	Combat Stance Cycle			
+pl0000_ca03	Combat Stance to Stand			
+pl0000_e023	Operator Cycle			
+pl0000_e030	NPC Apology			
+pl0000_e03a	NPC Ascertain			
+pl0000_e03b	NPC Celebration			
+pl0000_e041	Glory to Mankind			
+pl0000_e050	Talk Cycle			
+pl0000_e051	Talk Cycle			
+pl0000_e055	Stand Front to Stand Right			
+pl0000_e056	Stand Front to Stand Left			
+pl0000_e060	Bed Cycle			
+pl0000_e061	Bed to Stand			
+pl0000_e063	Ho.229 ?			
+pl0000_e065	Ho.229 ?			
+pl0000_e066	Ho.229 Cycle			
+pl0000_e06e				
+pl0000_e06f	Damage ?			
+pl0000_e070	Ho.229 ?			
+pl0000_e072	Ho.229 ?			
+pl0000_e073	Ho.229 ?			
+pl0000_e075	Ho.229 ?			
+pl0000_e076	Ho.229 ?			
+pl0000_e080				
+pl0000_e081	Damage ?			
+pl0000_e082	Transporter			
+pl0000_e083	Transporter			
+pl0000_e084	Door			
+pl0000_e086	Chest			
+pl0000_e087	Damage Stand Cycle			
+pl0000_e088	Damage Stand to Damage Run			
+pl0000_e089	Damage Run Cycle			
+pl0000_e08a	Damage Run Stop			
+pl0000_e08b	T-Pose Deformation			
+pl0000_e08c	getting up after self destruct (?)			
+pl0000_e090	Vomit Cycle			
+pl0000_e091	Damage ?			
+pl0000_e092	Damage ?			
+pl0000_e094	Damage ?			
+pl0000_e095	Damage ?			
+pl0000_e096	Damage ?			
+pl0000_e098	Damage ?			
+pl0000_e099	Damage ?			
+pl0000_e09a	Damage ?			
+pl0000_e0a0	NPC Run Cycle			
+pl0000_e0a1	NPC ? Run Cycle			
+pl0000_e0a2	Sprint Cycle			
+pl0000_e0a6	Stand to Damage Stand			
+pl0000_e0a7	Damage Stand Cycle			
+pl0000_e0a8	Damage Stand to Damage Run			
+pl0000_e0a9	Damage Run Cycle			
+pl0000_e0aa	Damage Run to Damage Stand			
+pl0000_e0ab	T-Pose Deformation			
+pl0000_e0ac	Damage Stand to Stand			
+pl0000_e0b0	Grün Canyon Up			
+pl0000_e0b1	Grün Canyon Cycle			
+pl0000_e0b2 Grün Canyon Down			
+pl0000_e0b4 Infection			
+pl0000_e0b6				
+pl0000_e0b8	Run to Stand			
+pl0000_e0ba	Run to Stand			
+pl0000_e0bf	Idle Cycle			
+pl0000_e0c0	Maso Retrieval			
+pl0000_e0c1	Maso Retrieval			
+pl0000_e0c2	Transporter ?			
+pl0000_e0c5	Damage ?			
+pl0000_e0c8	Stand to Sit			
+pl0000_e0c9	Sit Cycle			
+pl0000_e0ca	Sit to Stand			
+pl0000_e0cb	Stand to Fishing			
+pl0000_e0cc	Fishing Release Cycle			
+pl0000_e0cd	Fishing Cycle			
+pl0000_e0ce	Fishing to Stand			
+pl0000_e0d0	NPC Stand Cycle ?			
+pl0000_e0d1	Taunt Small Sword ?			
+pl0000_e0d5	NPC Stand Cycle ?			
+pl0000_e0d6	NPC Panic			
+pl0000_e0e0	Stand to Bed			
+pl0000_e0e1	Bed to Stand			
+pl0000_e0e5	NPC Stand Cycle ?			
+pl0000_e0e7	NPC Stand Cycle ?			
+pl0000_e0ea	NPC Celebration			
+pl0000_e0eb	NPC Celebration Cycle			
+pl0000_e0ed	Damage ?			
+pl0000_e0ee	Damage ?			
+pl0000_e0ef	Damage ?			
+pl0000_e0f0	Damage ?			
+pl0000_e0f1	Damage ?			
+pl0000_e0f2	Damage ?			
+pl0000_e0f3	Damage ?			
+pl0000_e0f4	Damage ?			
+pl0000_e0f5	Damage ?			
+pl0000_e0f6	Damage ?			
+pl0000_e0f7	Damage ?			
+pl0000_e0f8	Damage ?			
+pl0000_e0f9	Damage ?			
+pl0000_e0fa	Damage ?			
+pl0000_e0fb	Damage ?			
+pl0000_e0fc	Damage ?			
+pl0000_e0fd	Damage ?			
+pl0000_e0fe	Damage ?			
+pl0000_fffe	Damage ?			
+pl0000_ffff	Damage ?			
